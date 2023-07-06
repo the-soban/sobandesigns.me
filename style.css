@@ -18,6 +18,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
 }
 
 .navbar{
@@ -141,11 +142,128 @@ body{
 }
 
 .works-cards-box{
-    display: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 76px;
+}
+
+.works-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color: var(--text);
+    border: 1px solid rgba(238, 251, 234, 0.1);
+    border-radius: 56px;
+    overflow: hidden;
+}
+
+.card-img-box{
+    padding: 40px;
 }
 
 .card-img{
-    width: 382px;
+    width: 346px;
+    height: 308px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card-text2{
+    padding-left: 60px;
+}
+
+.card-heading{
+    /* font-family: 'Clash Display'; */
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.card-subheading{
+    font-family: 'Clash Display';
+    font-size: 16px;
+    font-weight: 500;
+    color: #AFAFAF;
+    margin-top: 4px;
+}
+
+.card-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary);
+    margin-top: 18px;
+}
+
+.card-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    gap: 16px;
+}
+
+.demo-btn, .github-btn{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: var(--secondary);
+    background-color: var(--primary);
+    border-radius: 16px;
+    padding: 10px 12px;
+}
+
+.github-btn{
+    color: var(--text);
+    background-color: var(--secondary);
+}
+
+.ellipse2{
+    width: 270px;
+    position: absolute;
+    left: 0px;
+    top: 2400px;
+    z-index: 0;
+}
+
+.toolkit-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin: 172px auto 0;
+}
+
+.toolkit-heading{
+    font-size: 42px;
+    font-family: 'Clash Display';
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 36px;
+}
+
+.toolkit-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 154px;
+}
+
+.toolkit-icons-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 64px 108px;
 }
