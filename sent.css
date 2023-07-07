@@ -1,0 +1,35 @@
+:root{
+    --background: #0f0f0f;
+    --text: #eefbea;
+    --primary: #83fc83;
+    --secondary: #024b26;
+    --accent: #49fda3;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Satoshi', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.sent-heading{
+    font-size: 42px;
+    font-family: 'Clash Display';
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+
+.envelope-image{
+    width: 332px;
+}

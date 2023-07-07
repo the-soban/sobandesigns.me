@@ -134,31 +134,44 @@
             <div class="contact-img-box">
                 <img src="./images/contact-bitmoji.png" alt="footer image" class="contact-img">
             </div>
-            <form action="POST" class="contact-form-box">
+            <form action="https://formsubmit.co/sobanshafeq123@gmail.com" method="POST" class="contact-form-box">
+                <input type="hidden" name="_next" value="https://sobandesigns.me/sent.html">
+                <input type="hidden" name="_subject" value="Message from Portfolio!">
                 <div class="name-email-box">
                     <div class="name-box">
-                        <label for="" class="name-label">Your Name</label>
-                        <input type="text" class="name-field">
+                        <label for="name" class="label name-label">Your Name</label>
+                        <input type="text" name="name" placeholder="John Doe" class="field name-field" required>
                     </div>
                     <div class="email-box">
-                        <label for="" class="email-label">Your Email</label>
-                        <input type="text" class="email-field">
+                        <label for="email" class="label email-label">Your Email</label>
+                        <input type="email" name="email" placeholder="john123@xyz.com" class="field email-field"
+                            required>
                     </div>
                 </div>
                 <div class="message-box">
-                    <label for="" class="message-label">Your Message</label>
-                    <textarea name="" class="messsage-field" cols="24" rows="6"></textarea>
+                    <label for="message" class="label message-label">Your Message</label>
+                    <textarea name="message"
+                        placeholder="Hi! I wanted to know about a project inquiry. When is the best time for you to chat?"
+                        class="field messsage-field" cols="16" rows="4" required></textarea>
                 </div>
-                <a href="#" class="send-btn">Send Message</a>
+                <!-- <a href="#" class="send-btn">Send Message</a> -->
+                <button class="send-btn" type="submit">Send Message</button>
             </form>
         </div>
     </section>
 
     <footer class="socials-section">
+        <h2 class="socials-heading">Connect with me</h2>
         <div class="socials-icons-box">
-            <img src="./images/Github.png" alt="social icons" class="socials-icon">
-            <img src="./images/Twitter.png" alt="social icons" class="socials-icon">
-            <img src="./images/LinkedIn.png" alt="social icons" class="socials-icon">
+            <a href="" class="socials-link">
+                <img src="./images/Github.png" alt="social icons" class="socials-icon">
+            </a>
+            <a href="" class="socials-link">
+                <img src="./images/Twitter.png" alt="social icons" class="socials-icon">
+            </a>
+            <a href="" class="socials-link">
+                <img src="./images/LinkedIn.png" alt="social icons" class="socials-icon">
+            </a>
         </div>
         <span class="socials-copyright">Copyright © 2023 SobanDesigns. All Rights Reserved.</span>
     </footer>
