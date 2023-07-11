@@ -100,6 +100,18 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .navbar{
@@ -163,8 +175,43 @@ body{
     color: var(--text);
 }
 
+.hello-text-box{
+    margin:0;
+	overflow: hidden;
+}
+
 .hello{
+    font-family: 'Satoshi';
     font-size: 28px;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 34px;
+    display: none;
+}
+
+.hello.text-in{
+    display: block;
+	animation: textIn .3s ease;
+}
+.hello.text-out{
+    animation: textOut .3s ease;
+}
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
 }
 
 .intro{
