@@ -26,10 +26,35 @@ body{
     font-size: 42px;
     font-family: 'Clash Display';
     font-weight: 600;
+    text-align: center;
     color: var(--text);
     margin-bottom: 16px;
 }
 
 .envelope-image{
     width: 332px;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 800px){
+    .sent-heading{
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .envelope-image{
+        width: 280px;
+    }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 479px){
+    .sent-heading{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .envelope-image{
+        width: 280px;
+    }
 }

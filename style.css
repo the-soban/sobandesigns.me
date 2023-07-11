@@ -329,7 +329,6 @@ body{
 }
 
 .field{
-    /* height: 24px; */
     padding: 12px 8px 12px 12px;
     border-radius: 8px;
     border: 1px solid rgba(238, 251, 234, 0.0);
@@ -724,7 +723,6 @@ body{
 
     .works-section{
         width: 420px;
-        /* overflow: hidden; */
     }
 
     .works-heading{
@@ -833,13 +831,286 @@ body{
         border-radius: 14px;
     }
 
-    .socials-section{
-
-    }
-
     .socials-heading{
         font-size: 34px;
         margin-bottom: 24px;
+    }
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 479px){
+
+    .navbar{
+        justify-content: space-between;
+        padding: 24px;
+    }
+
+    .logo{
+        width: 84px;
+    }
+
+    .links-box{
+        display: none;
+    }
+
+    .contact-btn-box{
+        display: none;
+    }
+
+    .menu-icon-box{
+        top: 12px;
+        right: 12px;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .links-box-mobile{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        background-color:var(--primary);
+        padding: 21px 0;
+        animation: slide-bottom 0.3s ease-in-out both
+    }
+
+    @keyframes slide-bottom {
+        0%{
+            transform:translateY(-20px);
+            opacity: 0;
+        }
+
+        100%{
+            transform:translateY(0);
+            opacity: 1;
+        }
+      }
+
+    .active{
+        display: flex;
+    }
+
+    .link{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--secondary);
+    }
+
+    .contact-btn{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: underline;
+        padding: 0px;
+        border-radius: 0px;
+        color: var(--secondary);
+        background-color: var(--primary);
+    }
+
+    .hero-section{
+        margin: 52px 24px 0 24px;
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
+
+    .hero-text-box{
+        text-align: center;
+    }
+
+    .hello{
+        font-size: 14px;
+    }
+
+    .intro{
+        font-size: 34px;
+    }
+
+    .developer{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .hero-img{
+        width: 136px;
+    }
+
+    .about-section{
+        flex-direction: column;
+        gap: 12px;
+        width: 260px;
+        height: auto;
+        margin: 162px auto 0;
+        padding: 36px;
+        border-radius: 54px;
+    }
+
+    .about-img{
+        width: 192px;
+    }
+
+    .about-text-box{
+        margin: 0;
+        /* padding: 24px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-heading{
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .about-text{
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .ellipse{
+        width: 136px;
+    }
+
+    .works-section{
+        width: 260px;
+    }
+
+    .works-heading{
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .works-card{
+        width: 240px;
+        flex-direction: column;
+        border-radius: 42px;
+    }
+
+    .works-card2{
+        flex-direction: column-reverse;
+    }
+
+    .card-img{
+        width: 100%;
+        height: 146px;
+    }
+
+    .card-text{
+        padding: 24px;
+    }
+
+    .card-heading{
+        font-size: 20px;
+    }
+
+    .card-subheading{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .card-desc{
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .card-btn-box{
+        margin-top: 12px;
+    }
+
+    .demo-btn, .github-btn{
+        font-size: 12px;
+        border-radius: 12px;
+        padding: 10px 8px;
+    }
+
+    .toolkit-section{
+        width: 260px;
+    }
+
+    .toolkit-heading{
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .toolkit-box{
+        gap: 0;
+    }
+
+    .toolkit-icons-box{
+        gap: 28px 34px;
+    }
+
+    .tool-icon{
+        width: 46px;
+    }
+
+    .toolkit-img{
+        display: none;
+    }
+
+    .contact-section{
+        width: 260px;
+        border-radius: 42px;
+        padding: 34px;
+    }
+
+    .contact-heading{
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .contact-box{
+        gap: 0;
+    }
+
+    .contact-img{
+        display: none;
+    }
+
+    .name-email-box{
+        gap: 16px;
+    }
+
+    .label{
+        font-size: 12px;
+    }
+
+    .field{
+        padding: 8px 8px 8px 12px;
+        width: 100%;
+    }
+
+    .field::placeholder{
+        font-size: 12px;
+    }
+
+    .send-btn{
+        font-size: 12px;
+        border-radius: 12px;
+        padding: 10px 8px;
+    }
+
+    .socials-heading{
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+    
+    .socials-icons-box{
+        gap: 28px;
+    }
+
+    .socials-icon{
+        width: 46px;
+    }
+
+    .socials-copyright{
+        font-size: 10px;
+        font-weight: 300;
     }
 
 }
