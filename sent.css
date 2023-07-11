@@ -1,43 +1,43 @@
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Regular.otf');
-    src: url('fonts/clash-display/ClashDisplay-Regular.otf') format('otf');
-    font-weight: 400, normal;
+    src: url('fonts/clash-display/ClashDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Medium.otf');
-    src: url('fonts/clash-display/ClashDisplay-Medium.otf') format('otf');
-    font-weight: 500, medium;
+    src: url('fonts/clash-display/ClashDisplay-Medium.otf') format('opentype');
+    font-weight: 500;
     font-style: normal;
   }
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Semibold.otf');
-    src: url('fonts/clash-display/ClashDisplay-Semibold.otf') format('otf');
+    src: url('fonts/clash-display/ClashDisplay-Semibold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
   }
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Bold.otf');
-    src: url('fonts/clash-display/ClashDisplay-Bold.otf') format('otf');
-    font-weight: 700, bold;
+    src: url('fonts/clash-display/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: bold;
     font-style: normal;
   }
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Light.otf');
-    src: url('fonts/clash-display/ClashDisplay-Light.otf') format('otf');
-    font-weight: 300, lighter;
+    src: url('fonts/clash-display/ClashDisplay-Light.otf') format('opentype');
+    font-weight: 300;
     font-style: normal;
   }
 @font-face {
     font-family: "Clash Display";
     src: url('fonts/clash-display/ClashDisplay-Extralight.otf');
-    src: url('fonts/clash-display/ClashDisplay-Extralight.otf') format('otf');
-    font-weight: 200, thin;
+    src: url('fonts/clash-display/ClashDisplay-Extralight.otf') format('opentype');
+    font-weight: 200;
     font-style: normal;
   }
 
@@ -45,36 +45,36 @@
 @font-face {
     font-family: "Satoshi";
     src: url('fonts/satoshi/Satoshi-Light.otf');
-    src: url('fonts/satoshi/Satoshi-Light.otf') format('otf');
-    font-weight: 300, lighter;
+    src: url('fonts/satoshi/Satoshi-Light.otf') format('opentype');
+    font-weight: 300;
     font-style: normal;
   }  
 @font-face {
     font-family: "Satoshi";
     src: url('fonts/satoshi/Satoshi-Regular.otf');
-    src: url('fonts/satoshi/Satoshi-Regular.otf') format('otf');
-    font-weight: 400, normal;
+    src: url('fonts/satoshi/Satoshi-Regular.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
   }  
 @font-face {
     font-family: "Satoshi";
     src: url('fonts/satoshi/Satoshi-Medium.otf');
-    src: url('fonts/satoshi/Satoshi-Medium.otf') format('otf');
-    font-weight: 500, medium;
+    src: url('fonts/satoshi/Satoshi-Medium.otf') format('opentype');
+    font-weight: 500;
     font-style: normal;
   }  
 @font-face {
     font-family: "Satoshi";
     src: url('fonts/satoshi/Satoshi-Bold.otf');
-    src: url('fonts/satoshi/Satoshi-Bold.otf') format('otf');
-    font-weight: 700, bold;
+    src: url('fonts/satoshi/Satoshi-Bold.otf') format('opentype');
+    font-weight: bold;
     font-style: normal;
   }  
 @font-face {
     font-family: "Satoshi";
     src: url('fonts/satoshi/Satoshi-Black.otf');
-    src: url('fonts/satoshi/Satoshi-Black.otf') format('otf');
-    font-weight: 900, bolder;
+    src: url('fonts/satoshi/Satoshi-Black.otf') format('opentype');
+    font-weight: 900;
     font-style: normal;
   }
 
