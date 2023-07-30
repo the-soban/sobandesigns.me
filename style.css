@@ -176,8 +176,9 @@ body{
 .hero-section{
     z-index: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 375px;
     margin: 64px 124px 0 124px;
 }
 
